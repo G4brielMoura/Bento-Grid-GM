@@ -1,0 +1,120 @@
+  /* reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-interface {
+    width: 360px;
+    height: 712px;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 1rem;
+    background-color: #0c0c0c;
+  }
+  /* colunas esquerdas */
+  .coluna-esquerda {
+    flex: 2;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  /* colunas direitas */
+  .coluna-direita {
+    flex: 1;
+    gap: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  /* caixas do projeto */
+  .caixas {
+    flex: 1;
+    border-radius: 1rem;
+  }
+  .row3 {
+    display: flex;
+    gap: 1rem;
+    border: none;
+  }
+  .row-col {
+    flex: 1;
+    border-radius: 1rem;
+  }
+
+  .col-right {
+    flex: 1;
+  }
+
+  /* cores */
+  .row1 {
+    background-color: crimson;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .row2 {
+    transition: 0.5s;
+    background-color: chartreuse;
+    cursor: pointer;
+  }
+  .left {
+    transition: 0.5s;
+    background-color: orangered;
+    cursor: pointer;
+  }
+  .right {
+    transition: 0.5s;
+    background-color: blueviolet;
+    cursor: pointer;
+  }
+  .top {
+    transition: 0.5s;
+    background-color: darkturquoise;
+    cursor: pointer;
+  }
+  .bottom {
+    transition: 0.5s;
+    background-color: darkorange;
+    cursor: pointer;
+  }
+  /* end cores */
+  /* new anim-hover */
+  .row1:hover {
+    transform: scale(1.02);
+    background-color: rgb(255, 0, 51);
+  }
+
+  .left:hover {
+    transform: scale(1.02);
+    background-color: rgb(255, 8, 0);
+  }
+
+  .right:hover {
+    transform: scale(1.02);
+    background-color: rgb(226, 43, 134);
+  }
+
+  .top:hover {
+    transform: scale(1.02);
+    background-color: rgb(0, 209, 80);
+  }
+
+  .bottom:hover {
+    transform: scale(1.02);
+    background-color: rgb(255, 247, 0);
+  }
+  .row2:hover {
+    transform: scale(1.02);
+    background-color: rgb(255, 255, 255);
+  }
+  /* end-anim-hover */
